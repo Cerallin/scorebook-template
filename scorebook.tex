@@ -1,0 +1,36 @@
+\documentclass[a4paper, twoside]{book}
+
+\usepackage{scorebook}
+
+\title{
+    \titlefont{楽譜集}
+    \vspace{24pt}
+    \par
+    \subtitlefont{二次元音楽のコレクション}
+    \vspace{240pt}
+}
+\author{\huge Cerallin}
+
+\date{\today}
+
+% \dominitoc
+
+\begin{document}
+
+\begin{center}
+    \maketitle
+\end{center}
+\cleardoublepage
+
+\frontmatter
+
+\tableofcontents
+\cleardoublepage
+
+\mainmatter
+
+\setchapter{Chapter Name}
+
+\includescore{Title}{Source}{Date}{/path/to/example.pdf}
+
+\end{document}
